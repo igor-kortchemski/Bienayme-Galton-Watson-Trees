@@ -1,13 +1,11 @@
 # Bienaymé–Galton–Watson Trees in Lean
 
+> This repository preserves the original finite-tree library. The current library and releases are at [Random Trees in Lean](https://github.com/igor-kortchemski/random-trees-lean).
+
 A Lean 4 library for finite plane trees and their Łukasiewicz encodings, towards
 the formalization of Bienaymé–Galton–Watson theory.
 
-**Status: library in development.** The API may evolve, including changes to
-definitions, declaration names and module organization. Backward compatibility
-is not guaranteed; downstream projects should pin a specific Git commit.
-
-The current library provides deterministic finite-tree foundations. BGW
+This snapshot provides deterministic finite-tree foundations. BGW
 probability laws, conditioning and the probabilistic results of the target
 manuscript remain to be formalized. The [formalization report](FORMALIZATION_REPORT.md)
 records the proved results and outstanding targets.
